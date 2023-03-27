@@ -1,0 +1,26 @@
+.navbar {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: auto;
+}
+
+.home-container, .bottom-section{
+    background-color: rgba(53, 53, 53, 0.932);
+    display: flex;
+    margin: auto;
+}
+
+.home-text{
+    display: flex;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    height: 300px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+}
