@@ -6,7 +6,7 @@
 h1{
     text-align: center;
     padding: 50px;
-    background-color: rgba(53, 53, 53, 0.932);
+    background-color: rgba(92, 91, 91, 0.932);
     color: white;
     font-size: Xxx-large;
     box-shadow: 2px white;
@@ -19,7 +19,7 @@ h1{
     justify-content: space-around;
     padding: 10px;
     margin: auto;
-    background-color: rgba(53, 53, 53, 0.932);
+    background-color: rgba(92, 91, 91, 0.932);
     border-bottom: 2px solid white;
     border-top: 2px solid white;
 }

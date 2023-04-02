@@ -1,6 +1,6 @@
 import '../css/home.css'
 import { Parallax, Background } from "react-parallax";
-import Road from "../assets/road.jpg";
+import PinkMountains from '../assets/pink-mountains.jpg'
 
 function Home(){
 return(
@@ -14,7 +14,7 @@ return(
             </div> 
             
         </div>
-        <Parallax bgImage={Road} strength={650}>
+        <Parallax bgImage={PinkMountains} strength={400}>
             <div style={{height: 700, width: "cover", margin: "auto"}}></div>
         </Parallax>
         <div className="bottom-section" style={{height: 400}}></div>

@@ -7,7 +7,7 @@
 }
 
 .home-container, .bottom-section{
-    background-color: rgba(53, 53, 53, 0.932);
+    background-color: rgb(236, 166, 199);
     display: flex;
     margin: auto;
 }

@@ -2,7 +2,7 @@
 import '/src/css/App.css'
 import React from 'react';
 import { NavLink, Route, Routes } from 'react-router-dom';
-import ScrollParallaxFixed from './scroll-Parallax.jsx'
+import ScrollParallaxBlur from './scroll-Parallax.jsx'
 import ScrollParallaxReversed from './scroll-Parallax-Reversed.jsx'
 import ScrollParallaxLayers from './scroll-Parallax-Layered.jsx';
 import Home from './home.jsx';
@@ -18,7 +18,7 @@ function App() {
           <h1>PARALLAX DEMO</h1>
           <div className="navbar">
             <NavLink to={"/"}>HOME</NavLink>
-            <NavLink to={"fixed"}>FIXED</NavLink>
+            <NavLink to={"blur"}>BLUR</NavLink>
             <NavLink to={"reversed"}>REVERSED</NavLink>
             <NavLink to={"layers"}>LAYERED</NavLink>
 
@@ -28,7 +28,7 @@ function App() {
         <Routes>
           <Route path="/" element={ <Home />}/>
 
-            <Route path="fixed" element={<ScrollParallaxFixed />}/>
+            <Route path="blur" element={<ScrollParallaxBlur />}/>
             <Route path="reversed" element={<ScrollParallaxReversed />}/>
             <Route path="layers" element={<ScrollParallaxLayers />}/>
          

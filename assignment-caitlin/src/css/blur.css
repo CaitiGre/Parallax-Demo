@@ -1,12 +1,12 @@
-.reversed-container, .reversed-bottom{
-    background-color: #98c1d3;
-    display: flex;
+
+.blurContainer, .blurBottom{
     margin: auto;
+    background-color: rgb(7, 68, 20);
 }
 
-.reversed-text{
+.blurText{
     display: flex;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: larger;

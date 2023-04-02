@@ -1,18 +1,23 @@
-.reversed-container, .reversed-bottom{
-    background-color: #98c1d3;
-    display: flex;
+.layeredContainer {
     margin: auto;
+    background-color: rgba(96,126,150,255);
+    display: flex;
 }
 
-.reversed-text{
+.layeredText {
     display: flex;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: larger;
-    height: 300px;
+    height: 200px;
     align-content: center;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 20px;
+    
+}
+
+.parallaxContainer::-webkit-scrollbar{
+    display: none;
 }

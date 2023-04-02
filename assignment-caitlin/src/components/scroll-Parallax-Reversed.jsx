@@ -16,7 +16,7 @@ function ScrollParallaxReversed(){
         <Parallax bgImage={BeachScene} strength={-400}>
             <div style={{height: 700, width: "cover", margin: "auto"}}></div>
         </Parallax>
-        <div className="bottom-section" style={{height: 400}}></div>
+        <div className="reversed-bottom" style={{height: 400}}></div>
         </div>
     )
 }
