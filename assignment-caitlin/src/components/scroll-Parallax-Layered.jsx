@@ -100,7 +100,7 @@ function ScrollParallaxLayers(){
                         factor={1}
                         style={{
                             backgroundImage: `url(${BalloonThree})`,
-                            backgroundSize: "40%",
+                            backgroundSize: "35%",
                             backgroundPosition: "bottom right"
                         }}
                     >

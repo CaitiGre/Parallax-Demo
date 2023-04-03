@@ -1,12 +1,12 @@
 .layeredContainer {
     margin: auto;
-    background-color: rgba(96,126,150,255);
+    background-color: rgb(231, 231, 231);
     display: flex;
 }
 
 .layeredText {
     display: flex;
-    color: white;
+    color: rgb(94, 94, 94);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: larger;
