@@ -16,3 +16,7 @@
     justify-content: space-evenly;
     padding: 20px;
 }
+
+.reversed-bottom{
+    height: 400px;
+}

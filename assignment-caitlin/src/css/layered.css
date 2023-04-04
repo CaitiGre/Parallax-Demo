@@ -21,3 +21,20 @@
 .parallaxContainer::-webkit-scrollbar{
     display: none;
 }
+
+.parallaxText2, .parallaxText {
+    padding: 10px;
+    font-size: x-large;
+    color: rgb(231, 231, 231);
+}
+
+.parallaxText2{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.parallaxText3{
+    text-align: center;
+    font-size: xxx-large;
+    color: rgb(94, 94, 94);
+}
