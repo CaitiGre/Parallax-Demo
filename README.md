@@ -146,10 +146,10 @@ Now we will be creating parallax layers. The order in which you place these laye
 
 Each layer of parallax has four things:
 
-- Offset: The offset refers to the position of the layer on the page. Background is 0 as you want it to be fully on the page, 1 if you want it
-- Speed:
-- Factor:
-- Style:
+- Offset: The offset refers to the position of the layer on the page. Background is 0 as you want it to be at the top of the first page, 1 if you want it to be at the top of the second page etc
+- Speed: The speed that the layer moves in relation to the scrolling
+- Factor: The size that the layer appears relative to the size of the page e.g. 1 would be 100%, 2 would be 200% etc
+- Style: This is where you add the image, and set the style for the image that you are using e.g. make it cover the page etc.
 
 1. Within the parallax tags create your first layer. This will serve as the background layer of parallax. You will need to include ... It should look something like this:
 
