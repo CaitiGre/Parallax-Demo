@@ -1,0 +1,23 @@
+.pineTrees{
+    margin: auto;
+    background-position: left;
+}
+
+.horizontalPara::-webkit-scrollbar{
+    display: none;
+}
+
+.horizText {
+    display: flex;
+    color: rgb(94, 94, 94);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    height: 200px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(255, 174, 116);
+    
+}

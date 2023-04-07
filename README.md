@@ -16,6 +16,12 @@ In order to create and run the applications, you will need to install a few pack
 
 After this you will need to follow the steps on screen. For this project I selected React as the framework adnd JavaScript + SWC as the variant.
 
+Make sure you have also installed react-router-dom:
+
+```
+    npm install react-router-dom
+```
+
 Next you will need to install react parallax:
 
 ```
@@ -34,7 +40,7 @@ This version of parallax is the one that will allow you to create a layered vers
 
 As you have now created a new react file, you can remove all unnecessary files and components. All of the content in the CSS files may be deleted, as well as all of the content within the App function, and any react images.
 
-In addition, you will need to select some images (either your own or off of the internet) to use as your demonstration images. I selected mine as clear pictures (without filters) from [Unsplash] (https://unsplash.com/). Ideally you will want to choose images that are landscape.
+In addition, you will need to select some images (either your own or off of the internet) to use as your demonstration images. I selected mine as clear pictures (without filters) from [Unsplash](https://unsplash.com/). Ideally you will want to choose images that are landscape.
 
 You will also want to select some png images that can be layered atop on of the other images that you have selected to create a scene. I would suggest at least four png images.
 
@@ -166,7 +172,8 @@ Each layer of parallax has four things:
 />
 ```
 
-Please note: You can either do closing tags or add a forward slash at the end of the ParallaxLayer tag. If you are placing text as the layer and not an image, you will need to have a closing tag rather than a /. 
+Please note: You can either do closing tags or add a forward slash at the end of the ParallaxLayer tag. If you are placing text as the layer and not an image, you will need to have a closing tag rather than a /.
+
 2. Repeat step 1 for each of the layers that you are adding adjusting the offset, speed, factor and style for each of the layers to create your scene. You can add images, text, or any other format allowed by react.
 
 And that's it!

@@ -1,14 +1,14 @@
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import BackgroundLayer from "../assets/cloudy-sky.png";
+import BackgroundLayer from "../assets/vertical/cloudy-sky.png";
 import "../css/layered.css";
-import LayerTwo from "../assets/nimbus-cloud.png";
-import LayerThree from "../assets/planking-cloud.png";
-import LayerFour from "../assets/rising-cloud.png";
-import BalloonOne from "../assets/red-balloon.png";
-import BalloonTwo from "../assets/white-balloon.png";
-import BalloonThree from "../assets/retro-purple.png";
-import BalloonFour from "../assets/retro-balloon.png";
-import BalloonFive from "../assets/sweater-balloon.png";
+import LayerTwo from "../assets/vertical/nimbus-cloud.png";
+import LayerThree from "../assets/vertical/planking-cloud.png";
+import LayerFour from "../assets/vertical/rising-cloud.png";
+import BalloonOne from "../assets/vertical/red-balloon.png";
+import BalloonTwo from "../assets/vertical/white-balloon.png";
+import BalloonThree from "../assets/vertical/retro-purple.png";
+import BalloonFour from "../assets/vertical/retro-balloon.png";
+import BalloonFive from "../assets/vertical/sweater-balloon.png";
 
 function ScrollParallaxLayers() {
   return (
