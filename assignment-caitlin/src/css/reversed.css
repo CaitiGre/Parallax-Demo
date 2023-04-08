@@ -1,10 +1,10 @@
-.reversed-container, .reversed-bottom{
+.reversedContainer, .reversedBottom{
     background-color: #98c1d3;
     display: flex;
     margin: auto;
 }
 
-.reversed-text{
+.reversedText{
     display: flex;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,6 +17,6 @@
     padding: 20px;
 }
 
-.reversed-bottom{
+.reversedBottom{
     height: 400px;
 }

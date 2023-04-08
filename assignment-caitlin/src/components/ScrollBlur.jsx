@@ -9,7 +9,7 @@ function ScrollParallaxBlur() {
       <div className="blurText">
         <p>
           Within this version of parallax, the background image is fixed to the
-          page
+          page but with the added effect of bluring the image that we have chosen on scroll
         </p>
         <br></br>
       </div>

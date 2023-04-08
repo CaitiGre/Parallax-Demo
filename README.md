@@ -125,7 +125,7 @@ Blur parallax follows essentially the same steps as the previous two, except wit
 
 In this case, the blur function indicates where the blur begins and the speed it appears in relation to the image. You can play around with these numbers based on the image you have used and how you want the blur to appear.
 
-## Layered Parallax
+## Layered Parallax - Vertical
 
 Layered parallax is a little more complex than other forms of parallax that we have used so far. Mostly, this is due to the need to layer the images. For this, I would suggest choosing a simple background that can be built upon.
 
@@ -157,7 +157,7 @@ Each layer of parallax has four things:
 - Factor: The size that the layer appears relative to the size of the page e.g. 1 would be 100%, 2 would be 200% etc
 - Style: This is where you add the image, and set the style for the image that you are using e.g. make it cover the page etc.
 
-1. Within the parallax tags create your first layer. This will serve as the background layer of parallax. You will need to include ... It should look something like this:
+5. Within the parallax tags create your first layer. This will serve as the background layer of parallax. You will need to include ... It should look something like this:
 
 ```
 <ParallaxLayer
@@ -174,7 +174,22 @@ Each layer of parallax has four things:
 
 Please note: You can either do closing tags or add a forward slash at the end of the ParallaxLayer tag. If you are placing text as the layer and not an image, you will need to have a closing tag rather than a /.
 
-2. Repeat step 1 for each of the layers that you are adding adjusting the offset, speed, factor and style for each of the layers to create your scene. You can add images, text, or any other format allowed by react.
+6. Repeat step 1 for each of the layers that you are adding adjusting the offset, speed, factor and style for each of the layers to create your scene. You can add images, text, or any other format allowed by react.
+
+## Layered Parallax - Horizontal
+
+For this version of parallax, you will essentially be copying the same steps of the previous version of layered parallax, just with an extra parameter.
+
+1. Follow steps 1-3 of the Layered Parallax - Vertical
+2. Instead of following the exact same layout as step four of the previous section you are going to add another parameter into the parallax tags to ensure that the image scrolls horizontally e.g.
+```
+<Parallax pages={1.5} horizontal="true">
+</Parallax>
+```
+
+As a boolean, horizontal is automatically set to false in react-spring/parallax so you need to add the parameter and set it to true to change the way the image scrolls.
+
+3. Follow steps 5 and 6  from Layered Parallax - Vertical to add the layers to your parallax and repeat as necessary.
 
 And that's it!
 

@@ -6,13 +6,13 @@
     margin: auto;
 }
 
-.home-container, .bottom-section{
+.homeContainer, .homeBottom{
     background-color: rgb(236, 166, 199);
     display: flex;
     margin: auto;
 }
 
-.home-text{
+.homeText{
     display: flex;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

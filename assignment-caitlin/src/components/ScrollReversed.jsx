@@ -5,8 +5,8 @@ import "../css/reversed.css";
 function ScrollParallaxReversed() {
   return (
     <div>
-      <div className="reversed-container">
-        <div className="reversed-text">
+      <div className="reversedContainer">
+        <div className="reversedText">
           <p>
             In this example, the parallax is the same as the first one, just
             reversed.
@@ -30,7 +30,7 @@ function ScrollParallaxReversed() {
          * Margin auto is optional here, it can also be added to the css file if you give the div a className.
          */}
       </Parallax>
-      <div className="reversed-bottom"></div>
+      <div className="reversedBottom"></div>
     </div>
   );
 }

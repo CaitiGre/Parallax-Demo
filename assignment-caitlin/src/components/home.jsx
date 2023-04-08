@@ -5,8 +5,8 @@ import PinkMountains from "../assets/pink-mountains.jpg";
 function Home() {
   return (
     <div>
-      <div className="home-container">
-        <div className="home-text">
+      <div className="homeContainer">
+        <div className="homeText">
           <p>
             This first page provides an example of the scrolling background
             parallax that makes it appear as though the image is shifting as the
@@ -26,7 +26,7 @@ function Home() {
       <Parallax bgImage={PinkMountains} strength={400}>
         <div style={{ height: 700, width: "cover", margin: "auto" }}></div>
       </Parallax>
-      <div className="bottom-section" style={{ height: 400 }}></div>
+      <div className="homeBottom" style={{ height: 400 }}></div>
     </div>
   );
 }
