@@ -6,6 +6,7 @@ function Home() {
   return (
     <div>
       <div className="homeContainer">
+        {/** A container that contains the text that appears above the parallax */}
         <div className="homeText">
           <p>
             This first page provides an example of the scrolling background
@@ -23,8 +24,15 @@ function Home() {
           <br></br>
         </div>
       </div>
+      {/** Parallax settings. It specifies the background image that was imported above
+       * The strength sets the strength of the scroll. Can become laggy if too high
+       */}
       <Parallax bgImage={PinkMountains} strength={400}>
         <div style={{ height: 700, width: "cover", margin: "auto" }}></div>
+        {/** The above div is necessary to specify the height and width of the parallax image div
+         * The margin auto parameter is optional
+         * Style tags need to be added within double curly braces.
+         */}
       </Parallax>
       <div className="homeBottom" style={{ height: 400 }}></div>
     </div>

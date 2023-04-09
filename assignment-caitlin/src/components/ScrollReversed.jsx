@@ -19,14 +19,13 @@ function ScrollParallaxReversed() {
           <br></br>
         </div>
       </div>
-      {/**Here we are setting the image to be the beach scene that we imported and setting the strength to a negative to make the image move in the opposite direction*/}
-      <Parallax
-        bgImage={BeachScene}
-        bgImageAlt="Waves on a beach"
-        strength={-400}
-      >
+      {/**Here we are setting the image to be the beach scene that we imported.
+       *  We setting the strength to a negative to make the image move in the opposite direction*/}
+      <Parallax bgImage={BeachScene} bgImageAlt="Waves on a beach" strength={-400}>
         <div style={{ height: 700, width: "cover", margin: "auto" }}></div>
-        {/**You then create a div within the parallax tags that set the height and the image will appear on the screen and set the width to cover to ensure the image stretches to fit the page.
+        {/**You then create a div within the parallax tags that set the height.
+         * The image will appear within this div.
+         * We then set the width to cover to ensure the image stretches to fit the page.
          * Margin auto is optional here, it can also be added to the css file if you give the div a className.
          */}
       </Parallax>

@@ -17,7 +17,18 @@ function ScrollLayeredHorizontal() {
         <p>Similar to the vertical parallax, the horizontal parallax uses the same package as the vertical parallax with a few extra parameters. </p>
         <p>The effect is achieved in this instance by layering silhouetted images on top of a mountain silhouette background.</p>
       </div>
+      {/**This version of parallax is slightly different to the non-layered parallax used before
+       * In react-spring/parallax you need to specify the amount of pages that you want the effect to span across
+       * We add horizontal="true" to set the direction the parallax spans. The default is horizontal="false"
+       */}
       <Parallax className="horizontalPara" pages={1.3} horizontal="true">
+        {/**This first layer is the one that is the background image.
+         * You need to set the offset from the previous layer, the speed that it moves, the factor (size) and the style within double curly braces.
+         * The style contains an image url that was imported above with the name that we set it
+         * We set the background size to cover that will stretch the image
+         * All subsequent layers are placed on top of this one in the order that we want them to appear
+         * The background position can also be set with percentages
+         */}
         <ParallaxLayer
           offset={0}
           speed={0.5}

@@ -69,7 +69,7 @@ function ScrollParallaxLayers() {
         >
           <h2>PARALLAX LAYERS CAN BE COMPOSED OF ANYTHING</h2>
         </ParallaxLayer>
-
+        {/**Text layers can also be set but they need to be placed between an opening and closing parallaxLayer tag, they cannot be within a self closing tag */}
         <ParallaxLayer
           className="parallaxText3"
           offset={0.99}

@@ -9,6 +9,7 @@ import Home from "./home.jsx";
 
 function App() {
   return (
+    //Nav bar routes
     <div className="main-container">
       <React.Fragment>
         <header>
@@ -21,7 +22,7 @@ function App() {
             <NavLink to={"layeredHori"}>HORIZONTAL LAYERED</NavLink>
           </div>
         </header>
-
+        {/**The paths that the navigated to routes link up to */ }
         <Routes>
           <Route path="/" element={<Home />} />
             <Route path="blur" element={<ScrollBlur />} />
