@@ -1,10 +1,18 @@
-# cs732-se75-assignment-CaitiGre
-
 # Welcome to my React Parallax demo!
 
 Hello and welcome to my tech demo for a react parallax application. In this demonstration you will learn how to do a traditional parallax image, a reversed parallax image, a blur parallax image, and a layered parallax scene.
 
-Parallax itself is a distortion of view in the simplest of explanations. It can be visually impactful when used on websites and can create the illusion of movement when using parallax layers
+Parallax itself is a distortion of view in the simplest of explanations. It can be visually impactful when used on websites and can create the illusion of movement when using parallax layers. An example of this would be the the Firewatch game website or the Apple website who tend to use parallax images to dynamically showcase new products.
+
+In this instance, we make use of scrolling to shift the field of view of what the user is seeing. The forms of parallax demonstrated within this tech demo are only some of the possible ways that you can use parallax, but I hope that it serves as a solid starting point and a straightforward explnation for how to use both react-parallax and react-scroll/parallax in your own applications.
+
+If you are using this file with the images and content already here, then all you have to do is clone the file, open it with an application such as Visual Studio Code, and type:
+
+```
+    npm install
+```
+
+Which will install the packages necessary to get this running on your own system. Otherwise, the steps to setting up and installing the packages needed to create your own application are listed in the following sections.
 
 ## Packages
 
