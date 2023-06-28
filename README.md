@@ -12,6 +12,11 @@ If you are using this file with the images and content already here, then all yo
     npm install
 ```
 
+You can run the project (hosted by Vite) by running:
+```
+npm run start
+```
+
 Which will install the packages necessary to get this running on your own system. Otherwise, the steps to setting up and installing the packages needed to create your own application are listed in the following sections.
 
 ## Packages
